@@ -5,20 +5,24 @@ import About from '../components/About';
 import Service from '../components/Service';
 import Project from '../components/Project';
 import Support from '../components/Support';
+import Footer from '../components/Footer';
 
 
 
 
 export default function Home() {
   return (
-    <main className="px-10 md:px-24 pt-24 ">
+    <>
       <Navbar />
-      <Hero />
-      <About />
-      <Service />
-      <Project />
-      <Support />
-     
-    </main>
+      <main className="px-10 md:px-24 pt-24 ">
+        <Hero />
+        <About />
+        <Service />
+        <Project />
+        <Support />
+      
+      </main>
+      <Footer />
+    </>
   )
 }
