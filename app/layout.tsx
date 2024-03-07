@@ -4,7 +4,7 @@ import './globals.css'
 
 
 
-export const poppins = Poppins({
+const poppins = Poppins({
   weight: ['400', '600'],
   subsets: ['latin']
 })
