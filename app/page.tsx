@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Service />
-      <Project />
-      <Support />
-      {/* <main className="px-10 md:px-24 pt-24 ">
+      <main className="px-10 md:px-24 pt-24 ">
+        <Hero />
+        <About />
+        <Service />
+        <Project />
+        <Support />
       
-      </main> */}
+      </main>
       <Footer />
     </>
   )
