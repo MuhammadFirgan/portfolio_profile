@@ -1,5 +1,7 @@
 
-import { ElementCardProps } from './types'
+// import { ElementCardProps } from './types'
+
+import { ElementCardProps } from "@/types";
 
 interface SupportCardProps {
     element: ElementCardProps
